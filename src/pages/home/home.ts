@@ -34,7 +34,7 @@ export class HomePage {
         // If it's base64:
         console.log("la imagen esta"+ imageData);
         //y ahora a pintarla
-        this.image='data:image/jpeg;base64,$(imageData)';
+        this.image=`data:image/jpeg;base64,${imageData}`;
       }, (err) => {
         // Handle error
       });
